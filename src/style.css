@@ -6,6 +6,16 @@ h1 {
   text-align: center;
   font-weight: 300;
 }
+form {
+  text-align: center;
+}
+.example {
+  text-align: center;
+  font-size: small;
+}
+.poem {
+  text-align: center;
+}
 footer {
   text-align: center;
   font-weight: 300;
