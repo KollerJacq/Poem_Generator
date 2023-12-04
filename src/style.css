@@ -59,6 +59,21 @@ form {
   margin-top: -80px;
   transform: translate(-50%, -50%);
 }
+.blink {
+  animation: myAnim 2s ease-in-out 0s infinite normal forwards;
+}
+@keyframes myAnim {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
 a {
   text-decoration: none;
   color: #c2b0b6;
@@ -71,7 +86,7 @@ footer {
   text-align: center;
   font-size: small;
   font-weight: 300;
-  margin-top: 100px;
+  margin-top: 130px;
   border-top: 3px dotted #a89389;
   color: #544741;
 }
